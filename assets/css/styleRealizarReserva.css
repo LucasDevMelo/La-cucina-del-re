@@ -778,6 +778,11 @@
     width: 800px;
     margin: 30px auto;
 }
+
+.textReserva{
+    font-family: var(--fontFamily-forum);
+}
+
   .section-title {
     text-align: center;
     margin-bottom: 80px;
@@ -813,11 +818,6 @@
     width: 100%;
   }
 
-  .textReserva{
-    font-family: var(--fontFamily-dm_sans);
-    text-align: center;
-  }
-
   .register input{
     margin-top: 10px;
     border: none;
@@ -834,12 +834,22 @@
   .inputRegister{
     background-color: var(--eerie-black-1);
     padding-left: 10px;
+    height: 50px;
   }
   
   .inputRegisterLitle{
     background-color: var(--eerie-black-1);
     padding-left: 10px;
     width: 49%;
+  }
+
+  form textarea {
+    margin-top: 10px;
+    color: var(--gold-crayola);
+    background-color: var(--eerie-black-1);
+    border-radius: 3px;
+    border-radius: 5px;
+    border: 2px solid transparent;
   }
 
   .inputColection{
