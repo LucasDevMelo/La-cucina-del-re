@@ -777,6 +777,7 @@
 .main {
     width: 800px;
     margin: 30px auto;
+    background-image: ;
 }
   .section-title {
     text-align: center;
@@ -827,6 +828,7 @@
   }
 
   .inputLogin{
+    padding-left: 20px;
     background-color: var(--eerie-black-1);
   }
 
@@ -1060,10 +1062,6 @@
      * HEADER
      */
   
-    .header { top: 11px; }
-  
-    .header.active { top: 0; }
-  
     .header .btn {
       display: block;
       margin-inline-start: auto;
@@ -1105,34 +1103,16 @@
   
   
     /**
-     * MENU
+     *  LOGIN
      */
   
-    .menu-card .title-wrapper {
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      gap: 05px;
-    }
-  
-    .menu-card .badge { margin-block-start: 0; }
-  
-    .menu-card .span {
-      flex-grow: 1;
-      display: flex;
-      align-items: center;
-      gap: 15px;
-      position: relative;
-    }
-  
-    .menu-card .span::before {
-      content: "";
-      height: 6px;
-      flex-grow: 1;
-      border-block: 1px solid var(--white-alpha-20);
-    }
-  
-  
+     .section-title {
+      text-align: center;
+      margin-bottom: 80px;
+      margin-top: 160px;
+      padding-top: 30px;
+  }
+    
   
     /**
      * EVENT

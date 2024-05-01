@@ -40,19 +40,6 @@
 
 
 <body id="top">
-
-    <!-- 
-      - #PRELOADER
-    -->
-  
-    <div class="preload" data-preaload>
-      <div class="circle"></div>
-      <p class="text">La cucina del re</p>
-    </div>
-  
-  
-  
-  
   
     <!-- 
       - #TOP BAR
@@ -129,14 +116,23 @@
   
           <ul class="navbar-list">
   
+
             <li class="navbar-item">
-              <a href="#home" class="navbar-link hover-underline active">
+              <a href="./login.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+  
+                <span class="span">Login</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="./register.html" class="navbar-link hover-underline active">
                 <div class="separator"></div>
   
                 <span class="span">Cadastro</span>
               </a>
             </li>
-  
+
             <li class="navbar-item">
               <a href="./index.html" class="navbar-link hover-underline">
                 <div class="separator"></div>
@@ -182,7 +178,7 @@
       </div>
     </header>
 
-  <main>
+  <main style="background-image: url('./assets/images/footer-bg.jpg')">
     <article>
       <!-- 
         - #Registrer
@@ -199,123 +195,20 @@
                     </div>
                     <form method="POST">
                         <input type="text" name="nome" placeholder="Digite seu nome completo" autofocus class="inputRegister">
-                        <input type="password" name="senha" placeholder="Digite seu e-mail" autofocus class="inputRegister">
+                        <input type="email" name="e-mail" placeholder="Digite seu e-mail" autofocus class="inputRegister">
+                        <div class="inputColection">
+                          <input type="tel" name="cpf" placeholder="Digite seu CPF" autofocus class="inputRegisterLitle">
+                          <input type="tel" name="telefone" placeholder="Digite seu telefone" autofocus class="inputRegisterLitle">
+                          <input type="password" name="senha" placeholder="Digite sua senha" autofocus class="inputRegisterLitle">
+                          <input type="password" name="confirmar senha" placeholder="Digite sua senha novamente" autofocus class="inputRegisterLitle">
+                        </div>
                         <input type="submit" value="entrar" class="buttonRegister">
+                        
                     </form>
-                    <p class="novoUsuarioTxt">Não tem um cadastro?<a href="#register.html" class="novoUsuario">Registre-se</a></p>
                 </div>
             </div>
         </div>
     </section>
-
-      
-  <!-- 
-    - #FOOTER
-  -->
-
-  <footer class="footer section has-bg-image text-center"
-    style="background-image: url('./assets/images/footer-bg.jpg')">
-    <div class="container">
-
-      <div class="footer-top grid-list">
-
-        <div class="footer-brand has-before has-after">
-
-          <a href="#" class="logo">
-            <img src="./assets/images/Gold White Elegant Luxury Bar & Restaurant Vintage Logo.png" width="160" height="50" loading="lazy" alt="grilli home">
-          </a>
-
-          <address class="body-4">
-            Endereço do restaurante
-          </address>
-
-          <a href="mailto:booking@grilli.com" class="body-4 contact-link">email@restaurante.com</a>
-
-
-          <p class="body-4">
-            Aberto das 11:00 às 23:00
-          </p>
-
-          <div class="wrapper">
-            <div class="separator"></div>
-            <div class="separator"></div>
-            <div class="separator"></div>
-          </div>
-
-        </div>
-
-        <ul class="footer-list">
-
-          <li>
-            <a href="#" class="label-2 footer-link hover-underline">Início</a>
-          </li>
-
-          <li>
-            <a href="#" class="label-2 footer-link hover-underline">Cardápio</a>
-          </li>
-
-          <li>
-            <a href="#" class="label-2 footer-link hover-underline">Sobre nós</a>
-          </li>
-
-          <li>
-            <a href="#" class="label-2 footer-link hover-underline">Contato</a>
-          </li>
-
-        </ul>
-
-        <ul class="footer-list">
-
-          <li>
-            <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
-          </li>
-
-          <li>
-            <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
-          </li>
-
-          <li>
-            <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
-          </li>
-
-          <li>
-            <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
-          </li>
-
-          <li>
-            <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
-          </li>
-
-        </ul>
-
-      </div>
-
-      <div class="footer-bottom">
-
-        <p class="copyright">
-          &copy; 2024 La cucina del re. Todos direitos reservados</a>
-        </p>
-
-      </div>
-
-    </div>
-  </footer>
-
-
-
-
-
-  <!-- 
-    - #BACK TO TOP
-  -->
-
-  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
-    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
-  </a>
-
-
-
-
 
   <!-- 
     - custom js link
