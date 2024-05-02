@@ -183,7 +183,7 @@
     font-size: var(--fontSize-body-4);
     font-weight: var(--weight-regular);
     line-height: var(--lineHeight-5);
-    overflow: hidden;
+    overflow:scroll;
   }
   
   body.loaded { overflow: overlay; }
@@ -796,7 +796,7 @@
   .register{
     display: flex;
     flex-direction: column;
-    justify-content:first baseline;
+    justify-content:center;
     align-items:center;
     background-color: black;
     width: 600px;
@@ -1018,6 +1018,28 @@
       margin-top: 35%;
       width: 220px;
   }
+
+  .inputColection{
+    display:block;
+  }
+
+  .inputRegisterLitle{
+    background-color: var(--eerie-black-1);
+    padding-left: 10px;
+    width: 100%;
+  }
+
+  form textarea {
+    margin-top: 10px;
+    color: var(--gold-crayola);
+    background-color: var(--eerie-black-1);
+    border-radius: 3px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+  }
+  
+
+  
 }
 
 @media (min-width: 575px) {
