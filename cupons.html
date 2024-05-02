@@ -9,7 +9,7 @@
   <!-- 
     - primary meta tags
   -->
-  <title>Realizar reserva</title>
+  <title>Promoções</title>
   <meta name="title" content="La cucina del re">
 
   <!-- 
@@ -27,7 +27,7 @@
   <!-- 
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/styleRealizarReserva.css">
+  <link rel="stylesheet" href="./assets/css/styleCupons.css">
 
   <!-- 
     - preload images
@@ -117,7 +117,7 @@
           <ul class="navbar-list">
 
             <li class="navbar-item">
-              <a href="./realizarReserva.html" class="navbar-link hover-underline active">
+              <a href="./realizarReserva.html" class="navbar-link hover-underline">
                 <div class="separator"></div>
   
                 <span class="span">Realizar Reserva</span>
@@ -141,7 +141,7 @@
             </li>
 
             <li class="navbar-item">
-                <a href="./promocoes.html" class="navbar-link hover-underline">
+                <a href="./promocoes.html" class="navbar-link hover-underline active">
                   <div class="separator"></div>
     
                   <span class="span">Promoções</span>
@@ -193,33 +193,35 @@
       </div>
     </header>
 
-  <main style="background-image: url('./assets/images/footer-bg.jpg')">
+  <main>
     <article>
       <!-- 
-        - #Realizar reserva
+        - #Promoções semanais
       -->
-    <section class="registerContent" aria-labelledby="about-label" id="about">
+      <section class="section menu" aria-label="menu-label" id="menu">
         <div class="main">
-            <div class="section-title">
-                <h2 class="headline-1">Reserva Online</h2>
-            </div>
-            <div class="area-register">
-                <div class="register">
-                    <div>
-                        <p class="textReserva">Faça uma reserva no número (61)99999-9999, ou preencha o formulário abaixo</p>
-                    </div>
-                    <form method="POST">
-                        <div class="inputColection">
-                          <input type="number" name="qtd de pessoas" placeholder="Qtd de pessoas" maxlength="2" class="inputRegisterLitle">
-                          <input type="datetime-local" name="telefone" placeholder="Selecione data e hora" autofocus class="inputRegisterLitle">
-                        </div>
-                        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Mensagem(opcional)" cols="50"></textarea>
-                        <input type="submit" value="Fazer reserva" class="buttonRegister">
-                    </form>
+            <h2 class="headline-1 section-title text-center">Cupons</h2>
+            <div class="wrapper">
+                <div class="wrapper-holder">
+                    <div id="slider-img-1"></div>
+                    <div id="slider-img-2"></div>
+                    <div id="slider-img-3"></div>
+                    <div id="slider-img-4"></div>
+                    <div id="slider-img-5"></div>
                 </div>
-            </div>
+                <div class="button-holder">
+                    <a href="#slider-img-1" class="button"></a>
+                    <a href="#slider-img-2" class="button"></a>
+                    <a href="#slider-img-3" class="button"></a>
+                    <a href="#slider-img-4" class="button"></a>
+                    <a href="#slider-img-5" class="button"></a>
+                </div>     
+            </div>   
+
         </div>
-    </section>
+      </section>
+      
+
 
   <!-- 
     - custom js link
