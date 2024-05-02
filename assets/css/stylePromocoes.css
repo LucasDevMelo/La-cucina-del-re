@@ -1004,6 +1004,86 @@
 /**
  * responsive for larger than 575px screen
  */
+ @media (min-width: 100px){
+    /**
+     * MENU
+     */
+
+     .main{
+      padding-left: 5%;
+      padding-right: 5%;
+     }
+
+     .headline-1{
+    
+      text-align: center;
+     }
+  
+     .menu-card .title-wrapper {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 15px;
+    }
+  
+    .menu-card .badge { margin-block-start: 0; }
+  
+    .menu-card .span {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      position: relative;
+    }
+  
+    .menu-card .span::before {
+      content: "";
+      height: 6px;
+      flex-grow: 1;
+      border-block: 1px solid var(--white-alpha-20);
+    }
+ }
+
+ @media(min-width: 375px){
+
+  /**
+     * MENU
+     */
+
+     .main{
+      padding-left: 10%;
+     }
+
+     .headline-1{
+    
+      text-align: center;
+     }
+  
+     .menu-card .title-wrapper {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 15px;
+    }
+  
+    .menu-card .badge { margin-block-start: 0; }
+  
+    .menu-card .span {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      position: relative;
+    }
+  
+    .menu-card .span::before {
+      content: "";
+      height: 6px;
+      flex-grow: 1;
+      border-block: 1px solid var(--white-alpha-20);
+    }
+}
+
 @media (min-width: 575px) {
 
     /**
