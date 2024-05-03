@@ -771,298 +771,50 @@
   /*-----------------------------------*\
     #Cupom
   \*-----------------------------------*/
-  .resgatar-cupom {
-    background-color: #ffffff;
+  
+  .contentCupom{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-top: 70px;
   }
-  
-  .resgatar-cupom .div {
-    background-color: #ffffff;
-    overflow: hidden;
-    width: 1482px;
-    height: 1020px;
-    position: relative;
+
+  .title-cupom{
+    font-family: var(--fontFamily-forum);
+    font-size: 35px;
+    margin-top: 40px;
   }
-  
-  .resgatar-cupom .overlap-group {
-    position: absolute;
-    width: 1487px;
-    height: 1039px;
-    top: 0;
-    left: -5px;
+
+  .description-cupom{
+    font-family: var(--fontFamily-forum);
+    font-size: 27px;
+    margin-top: 60px;
   }
-  
-  .resgatar-cupom .rectangle {
-    width: 1482px;
-    height: 1039px;
-    top: 0;
-    left: 5px;
-    position: absolute;
-    background-color: #000000;
+
+  .prices{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:start;
+    margin-top: 70px;
+    font-family: var(--fontFamily-forum);
   }
-  
-  .resgatar-cupom .rectangle-2 {
-    width: 271px;
-    height: 1015px;
-    top: 4px;
-    left: 0;
-    border: 5px solid;
-    border-color: #e4c590;
-    position: absolute;
-    background-color: #000000;
+
+  .oldPrice{
+    font-size: 27px;
+    text-decoration: line-through;
+    color: var(--quick-silver);
   }
-  
-  .resgatar-cupom .text-wrapper {
-    position: absolute;
-    top: 188px;
-    left: 70px;
-    font-family: "Inria Serif", Helvetica;
-    font-weight: 400;
-    color: #e4c590;
-    font-size: 18px;
-    text-align: center;
-    letter-spacing: -0.34px;
-    line-height: 32px;
-    white-space: nowrap;
+
+  .newPrice{
+    font-size: 35px;
+    padding-left:90px;
+    color: var(--gold-crayola);
   }
-  
-  .resgatar-cupom .text-wrapper-2 {
-    position: absolute;
-    top: 247px;
-    left: 83px;
-    font-family: "Inria Serif", Helvetica;
-    font-weight: 400;
-    color: #e4c590;
-    font-size: 18px;
-    text-align: center;
-    letter-spacing: -0.34px;
-    line-height: 32px;
-    white-space: nowrap;
+
+  .btnCupom{
+    margin-top: 70px;
   }
-  
-  .resgatar-cupom .text-wrapper-3 {
-    position: absolute;
-    top: 320px;
-    left: 46px;
-    font-family: "Inria Serif", Helvetica;
-    font-weight: 400;
-    color: #e4c590;
-    font-size: 18px;
-    text-align: center;
-    letter-spacing: -0.34px;
-    line-height: 32px;
-    white-space: nowrap;
-  }
-  
-  .resgatar-cupom .text-wrapper-4 {
-    position: absolute;
-    top: 407px;
-    left: 104px;
-    font-family: "Inria Serif", Helvetica;
-    font-weight: 400;
-    color: #e4c590;
-    font-size: 18px;
-    text-align: center;
-    letter-spacing: -0.34px;
-    line-height: 32px;
-    white-space: nowrap;
-  }
-  
-  .resgatar-cupom .line {
-    width: 220px;
-    height: 2px;
-    top: 233px;
-    left: 28px;
-    position: absolute;
-    object-fit: cover;
-  }
-  
-  .resgatar-cupom .img {
-    width: 220px;
-    height: 2px;
-    top: 306px;
-    left: 28px;
-    position: absolute;
-    object-fit: cover;
-  }
-  
-  .resgatar-cupom .line-2 {
-    width: 220px;
-    height: 2px;
-    top: 379px;
-    left: 26px;
-    position: absolute;
-    object-fit: cover;
-  }
-  
-  .resgatar-cupom .arrow-sm-left {
-    position: absolute;
-    width: 57px;
-    height: 53px;
-    top: 34px;
-    left: 202px;
-    object-fit: cover;
-  }
-  
-  .resgatar-cupom .text-wrapper-5 {
-    position: absolute;
-    width: 458px;
-    top: 151px;
-    left: 486px;
-    font-family: "Inria Serif", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 48px;
-    text-align: center;
-    letter-spacing: -0.91px;
-    line-height: 32px;
-    white-space: nowrap;
-  }
-  
-  .resgatar-cupom .text-wrapper-6 {
-    position: absolute;
-    width: 71px;
-    top: 43px;
-    left: 1179px;
-    font-family: "Inika", Helvetica;
-    font-weight: 700;
-    color: #e4c590;
-    font-size: 24px;
-    letter-spacing: -0.46px;
-    line-height: 32px;
-    white-space: nowrap;
-  }
-  
-  .resgatar-cupom .text-wrapper-7 {
-    position: absolute;
-    width: 104px;
-    top: 43px;
-    left: 1296px;
-    font-family: "Inika", Helvetica;
-    font-weight: 700;
-    color: #ffffff;
-    font-size: 24px;
-    letter-spacing: -0.46px;
-    line-height: 32px;
-    white-space: nowrap;
-  }
-  
-  .resgatar-cupom .text-wrapper-8 {
-    position: absolute;
-    width: 120px;
-    top: 548px;
-    left: 814px;
-    font-family: "Inria Serif", Helvetica;
-    font-weight: 400;
-    color: #726565;
-    font-size: 20px;
-    text-align: center;
-    letter-spacing: -0.38px;
-    line-height: 32px;
-    white-space: nowrap;
-  }
-  
-  .resgatar-cupom .text-wrapper-9 {
-    position: absolute;
-    width: 305px;
-    top: 336px;
-    left: 839px;
-    font-family: "Inria Serif", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 28px;
-    letter-spacing: -0.53px;
-    line-height: 32px;
-    white-space: nowrap;
-  }
-  
-  .resgatar-cupom .p {
-    position: absolute;
-    width: 305px;
-    top: 428px;
-    left: 839px;
-    font-family: "Inria Serif", Helvetica;
-    font-weight: 400;
-    color: #c4c4c4;
-    font-size: 26px;
-    letter-spacing: -0.49px;
-    line-height: 32px;
-  }
-  
-  .resgatar-cupom .text-wrapper-10 {
-    position: absolute;
-    width: 109px;
-    top: 554px;
-    left: 924px;
-    font-family: "Inria Serif", Helvetica;
-    font-weight: 400;
-    color: #e4c590;
-    font-size: 26px;
-    text-align: center;
-    letter-spacing: -0.49px;
-    line-height: 32px;
-    white-space: nowrap;
-  }
-  
-  .resgatar-cupom .line-3 {
-    width: 80px;
-    height: 1px;
-    top: 566px;
-    left: 833px;
-    position: absolute;
-    object-fit: cover;
-  }
-  
-  .resgatar-cupom .element {
-    position: absolute;
-    width: 469px;
-    height: 402px;
-    top: 323px;
-    left: 317px;
-    object-fit: cover;
-  }
-  
-  .resgatar-cupom .text-wrapper-11 {
-    position: absolute;
-    top: 129px;
-    left: 70px;
-    font-family: "Inria Serif", Helvetica;
-    font-weight: 400;
-    color: #e4c590;
-    font-size: 18px;
-    text-align: center;
-    letter-spacing: -0.34px;
-    line-height: 32px;
-    white-space: nowrap;
-  }
-  
-  .resgatar-cupom .line-4 {
-    width: 220px;
-    height: 2px;
-    top: 174px;
-    left: 26px;
-    position: absolute;
-    object-fit: cover;
-  }
-  
-  .resgatar-cupom .LOGO {
-    position: absolute;
-    width: 73px;
-    height: 72px;
-    top: -11683px;
-    left: -9326px;
-  }
-  
-  .resgatar-cupom .pegar-este-cupom {
-    position: absolute;
-    width: 227px;
-    height: 69px;
-    top: -11098px;
-    left: -8515px;
-  }
+
   
 
   
@@ -1209,7 +961,7 @@
      * MENU
      */
 
-     .main{
+     .main{margin-top: 70px;
       padding-left: 5%;
       padding-right: 5%;
      }
