@@ -27,8 +27,6 @@ const addEventOnElements = function (elements, eventType, callback) {
   }
 }
 
-
-
 /**
  * NAVBAR
  */
@@ -36,6 +34,7 @@ const addEventOnElements = function (elements, eventType, callback) {
 const navbar = document.querySelector("[data-navbar]");
 const navTogglers = document.querySelectorAll("[data-nav-toggler]");
 const overlay = document.querySelector("[data-overlay]");
+const navItems = document.querySelectorAll("[data-nav-item]");
 
 const toggleNavbar = function () {
   navbar.classList.toggle("active");
@@ -43,8 +42,16 @@ const toggleNavbar = function () {
   document.body.classList.toggle("nav-active");
 }
 
+const closeNavbar = function () {
+  navbar.classList.remove("active");
+  overlay.classList.remove("active");
+  document.body.classList.remove("nav-active");
+}
+
 addEventOnElements(navTogglers, "click", toggleNavbar);
 
+// Adicionando evento de clique para fechar a barra de navegação ao clicar em qualquer lugar dentro dela
+navbar.addEventListener("click", closeNavbar);
 
 
 /**
