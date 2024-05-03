@@ -182,7 +182,7 @@ body {
 
 body.loaded { overflow: overlay; }
 
-body.nav-active { overflow: scroll; }
+body.nav-active { overflow: hidden; }
 
 ::-webkit-scrollbar { width: 5px; }
 
