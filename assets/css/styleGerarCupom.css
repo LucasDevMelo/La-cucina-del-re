@@ -783,6 +783,7 @@
     font-family: var(--fontFamily-forum);
     font-size: 35px;
     margin-top: 40px;
+    color: var(--gold-crayola);
   }
 
   .description-cupom{
@@ -813,6 +814,12 @@
 
   .btnCupom{
     margin-top: 70px;
+  }
+
+  .imgCupom{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
   }
 
   
@@ -961,46 +968,45 @@
      * MENU
      */
 
+     .title-cupom{
+        text-align: center;
+      }
+  
+      .imgCupom{
+        max-width: 200px;
+        min-width: 200px;
+      }
+    
+      .description-cupom{
+        text-align: center;
+      }
+    
+      .prices{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:start;
+        margin-top: 30px;
+        font-family: var(--fontFamily-forum);
+      }
+    
+      .oldPrice{
+        padding-left: 10px;
+        justify-content: center;
+      }
+    
+      .newPrice{
+        font-size: 35px;
+        padding-left:90px;
+        color: var(--gold-crayola);
+      }
+    
+      .btnCupom{
+        margin-top: 70px;
+      }
      .main{margin-top: 70px;
       padding-left: 5%;
       padding-right: 5%;
      }
-
-     .title-cupom{
-      text-align: center;
-    }
-
-    .imgCupom{
-      max-width: 200px;
-      min-width: 200px;
-    }
-  
-    .description-cupom{
-      text-align: center;
-    }
-  
-    .prices{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content:start;
-      margin-top: 30px;
-      font-family: var(--fontFamily-forum);
-    }
-  
-    .oldPrice{
-      padding-left: 10px;
-      justify-content: center;
-    }
-  
-    .newPrice{
-      font-size: 35px;
-      padding-left:90px;
-      color: var(--gold-crayola);
-    }
-  
-    .btnCupom{
-      margin-top: 70px;
-    }
 
      .headline-1{
     
@@ -1472,8 +1478,6 @@
       font-family: var(--fontFamily-forum);
       font-size: 35px;
       margin-top: 40px;
-      text-align: start;
-      margin-left: 10px;
     }
 
     .imgCupom{
@@ -1486,7 +1490,6 @@
       font-size: 27px;
       margin-top: 60px;
       margin-left: 10px;
-      text-align: start;
     }
   
     .prices{
@@ -1511,8 +1514,6 @@
   
     .btnCupom{
       margin-top: 70px;
-      margin-left:10px;
-    }
   
   
   
