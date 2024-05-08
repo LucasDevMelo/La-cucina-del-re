@@ -780,6 +780,11 @@
    padding:5px;
    width: 100%;
  }
+
+ .table-reservas{
+    margin-top: 45PX;
+ }
+
  
  .table-title h3 {
     text-align: center;
