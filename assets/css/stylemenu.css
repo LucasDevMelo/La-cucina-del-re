@@ -933,6 +933,12 @@ body.nav-active { overflow: hidden; }
   right: 0;
 }
 
+.btn-primary {
+  margin-right: 45%;
+  margin-left: 43.5%;
+  width: 100%;
+}
+
 
 /*-----------------------------------*\
   #FOOTER
