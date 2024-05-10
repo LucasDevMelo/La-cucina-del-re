@@ -785,7 +785,7 @@
 .oldPrice{
     font-family: var(--fontFamily-dm_sans);
     color: gray;
-    text-decoration: ;
+    text-decoration: line-through;
 }
 
 .menu .section-title { margin-block-end: 40px; }
