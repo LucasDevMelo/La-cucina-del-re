@@ -596,7 +596,18 @@
   
   
   
-  
+  .novoUsuarioTxt{
+    color: white;
+    white-space: nowrap
+  }
+
+  .novoUsuario{
+    color:  var(--gold-crayola);
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
   
   /*-----------------------------------*\
     #HEADER
@@ -797,14 +808,10 @@
     align-items:center;
     background-color: black;
     width: 600px;
-    height: 450px;
+    height: 500px;
     padding: 35px;
     border: 1px solid var(--gold-crayola); 
     margin-bottom: 80px;
-  }
-
-  .novoUsuario{
-    color:  var(--gold-crayola);
   }
 
   .register form{
@@ -857,12 +864,6 @@
     background-color: var(--gold-crayola);
     color: black;
   }
-  
-  .novoUsuarioTxt{
-    text-align: start;
-    margin-top: 50px;
-  }
-  
   
   
   /*-----------------------------------*\
@@ -1458,9 +1459,8 @@
       background-color: var(--gold-crayola);
       color: var(--black);
     }
-  
-  
-  
+
+
     /**
      * RESERVATION
      */

@@ -777,7 +777,6 @@
 .main {
     width: 800px;
     margin: 30px auto;
-    background-image: ;
 }
   .section-title {
     text-align: center;
@@ -806,6 +805,8 @@
 
   .novoUsuario{
     color:  var(--gold-crayola);
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .login form{
@@ -842,7 +843,9 @@
   }
   
   .novoUsuarioTxt{
-    text-align: start;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 50px;
   }
   
